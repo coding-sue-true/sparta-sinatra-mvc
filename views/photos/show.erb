@@ -1,0 +1,6 @@
+<h1><%= @photo[:title]  %></h1>
+<p>
+<%= @photo[:body] %>
+</p>
+<a href="/photos/<%= @photo[:id] %>/edit">Edit</a>
+<img src="<%= @photo[:url] %>" alt="">
